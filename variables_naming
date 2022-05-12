@@ -1,0 +1,35 @@
+lst_object - last_object_in_this_year
+\\ последний запись в таблице, отсортированной по году
+
+content - raw_exersice_content
+\\ содержимое задания для студентов в текстовом формате до обработки
+
+deleted - deleted_messages
+\\ список удаленных ботом сообщений
+
+m_build - character_build_data
+\\ именованный кортеж с данным для билда персонажа в текстовой игре
+
+round - round_info_embed
+\\ Отображения для информации по раунду в текстовой игре
+
+emb - currency_info_embed
+\\ Отображение для текущего курса валют
+
+req_data - requested_currency_data
+\\ Ответ с API по курсу валют
+
+answer - instances_data
+\\ словарь с данными по изделиям из базы данных
+
+choices - nomenclature_name_choices
+\\ Значения для выбора имени номенклатуры
+
+f - temp_file_for_xslx
+\\ файл в оперативнйо памяти для создания xlsx
+
+title - page_header
+\\ Заголовок для веб страницы
+
+id - project_id
+\\ id проекта
