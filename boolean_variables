@@ -1,0 +1,27 @@
+7.1
+rewrite - is_rewrited
+\\ Флаг перезаписи объекта
+just_for_super - is_superuser
+\\ Проверка доступа только для суперюзеров
+just_for_registered_users - is_authenticated
+\\ Проверка доступа только для авторизованных пользователей
+temporal_dec_number - is_temporary_number
+\\ Метка временного номера
+cosmos_flag - is_for_space
+\\ Предназначен ли объект для космоса
+7.2
+done - для переменной цикла раундов в текстовой рпг
+success - для проверки получения заголовков из xslx файла
+7.3
+i - extension
+\\ for extension in extensions, расширение лучше обозначить полным именем
+7.4
+first, last - для получения границ диапазона или их использования, например range(first, last)
+confirmed, declined - для обозначения статуса документов и разделения их по группам
+7.5
+num - document_number
+\\ тестовая переменная для номера документа
+new_obj - defect_statement
+\\ Новый объект ОРМ для дефектной ведомости
+ex - exception
+\\ Переменная для перехвата исключения
