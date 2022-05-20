@@ -1,0 +1,24 @@
+new_obj - created_presentation
+\\ новый созданный объект предъявления
+next_to - next_page_url
+\\ url для переадресации в случае указывания адреса в GET-запросе
+values - model_field_names
+\\ Наименование полей у модели
+numbers_string - string_with_numbers
+\\ Строка, содержащая номера в виде чисел
+numbers - numbers_set
+\\ множество с номерами
+ranges - ranges_set
+\\ множество с диапазонами
+non_fabric_number - unnumbered_instances
+\\ непронумерованные изделия
+pres - presentation
+\\ Предъявление
+obj - defect_statement
+\\ Дефектная ведомость
+id_2_export - exported_passport_id
+\\ id экспортируемого паспорта объекта
+length - file_length
+\\ Длина файла
+adress - successful_url
+\\ url-адрес для перехода в случае успешного завершения кода
