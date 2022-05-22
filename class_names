@@ -1,0 +1,25 @@
+3.1
+ChangeProjectStatusView - ProjectStatusView
+\\ Контроллер для статуса проекта
+AddOperationToPresentationView - OperationAddView
+\\ Контроллер для добавления операции в общем случае
+AddInstancesToPresentationView - InstancesAddView
+\\ Контроллер для добавления изделий к модели в общем случае
+CreateSecondaryPresentationView - SecondaryPresentationCreateView
+\\ Контроллер для создания вторичного предъявления
+StudentManager - StudentSelector
+\\ Класс для получения данных из БД по студентам
+3.2
+get_distinct_list - get_for_journal
+get_list - get_for_journal
+\\ получение всех объектов из запроса для отображения в журнале(таблице)
+grous - show_all_groups
+\\ show_all_classname для отображения в чате списка сущностей
+show_group - show_group_detail
+\\ show_classname_detail для отображения в чате конкретной сущности
+insert_index - insert
+\\ для всех остальных классов-менеджеров моделей метод создания назван insert, тут же излишнее уточнение
+tag - get_tag_detail
+\\ функция вызова колбека бота для получения тега по имени
+all_tags - show_all_tags
+\\ Метод у бота для получения списка всех тегов для отображения
