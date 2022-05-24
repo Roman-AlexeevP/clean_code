@@ -1,0 +1,14 @@
+max_life_value - calculate_max_life
+\\ расчет максимального срока жизни
+save_and_update_notice_from_form - update_notice
+\\ обновление извещения
+get_element_list_to_set_form - get_initial_elements
+\\ получение списка элементов для инициализации формы
+get_count - count_positions
+\\ Подсчет позиций в списке
+year_of_work_end - calculate_endwork_year
+\\ Расчет года окончания срока службы
+check_column_names - is_found_headers
+\\ Проверка на наличие заголовков в файле
+_currency_from_request - parse_currency
+\\ Отпарсить валютный курс в словарь
