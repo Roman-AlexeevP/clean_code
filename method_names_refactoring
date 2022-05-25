@@ -12,3 +12,13 @@ check_column_names - is_found_headers
 \\ Проверка на наличие заголовков в файле
 _currency_from_request - parse_currency
 \\ Отпарсить валютный курс в словарь
+filter_anothers_cathegories - exclude_unused_cathegories
+\\ Фильтрует выборку от неиспользованных категорий
+statsEmb - creare_character_embed
+\\ Создает и заполняет данными отображение для персонажа
+buildEmb - create_build_embed
+\\ Создает и заполняет данными отображение для билда персонажа
+before_checking - init_collections
+\\ Инициализация коллекций перед запуском программы основной
+get_queryset_values - rename_query_fields
+\\ Переименовывает имена полей в запросе в читаемый вид
