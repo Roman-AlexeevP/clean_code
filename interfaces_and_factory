@@ -1,0 +1,13 @@
+DefectStatement.from_presentation()
+\\ Создание дефектной ведомости на основании предъявления
+DefectStatement.from_defects()
+\\ Создание дефектной ведомости на основании конкретных дефектов
+RadResist.from_csv()
+\\ Получение рад.стойкости из csv файла
+RadResist.from_xslx()
+\\ Получение рад.стойкости из xlsx файла
+Log.from_request()
+Log.from_file()
+Log.from_db()
+\\ Инициализация лога из запроса/файла/базы данных
+
