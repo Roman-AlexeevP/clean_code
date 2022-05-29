@@ -1,0 +1,25 @@
+paginate_by = 10 -> paginate_by = DEFAULT_PAGINATE_BY
+\\ Добавлена константа для дефолтного значения количества элементов в странице
+DEC_NUMBER_MAX_LENGTH
+\\ Добавлена константа для максимальной длины децимального номера
+MAX_TIMEOUT_SECONDS
+\\ Добавлена константа для максимального время ожидания для бота
+value = value.zfill(5) -> value = valuezfill(NOTICE_NUMBER_LENTGH)
+\\ Магическое число изменено на константу(длина номера извещения)
+initial_values.get("gamma_life") >= 50.0 -> >= DEFAULT_GAMMA_LIFE
+\\ Добавлена дефолтное значение для гаммы срока жизни
+col_len > 200 -> MAX_COL_LENTGH
+\\ Добавлена константа на максимальную длину столбца
+gamma_form.fields["life"].initial = 20
+\\ Добавлена константа для стартового значения срока жизни
+gamma_form.fields["gamma"].initial = 99
+\\ Добавлена константа для стартового значения гаммы
+gamma_form.fields["gamma_0"].initial = 50
+\\ Добавлена константа для стартового значения гаммы нулевой
+gamma_form.fields["unit"].initial = 'y' -> DEFAULT_UNIT_NAME
+\\ Добавлена константа для значения дефолтной единицы измерения
+worksheet.set_column(0, 0, 50) -> COL_CONFIG=(0, 0, 50)
+cols_width = [25, 55, 35, 10, 35, 15, 28] -> COLS_WIDTH_CONFIG = [..]
+\\ Добавлены константы для конфигурации столбов в создаваемом xlsx файле
+len(note_field) > 370 -> MAX_NOTE_LENTGH
+\\ Добавлена константа для максимальной длины примечания
