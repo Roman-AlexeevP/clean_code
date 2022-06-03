@@ -1,0 +1,74 @@
+sheet_validator = RegexValidator(regex=r"^(в-.+)|(с-.+)", message="Номер должен начинаться с указания типа документа")
+\\ Добавлен валидатор на значение номера ведомости
+
+if self.repair_price < 0:
+    raise ValidationError("Стоимость ремонта должна быть больше 0")
+
+\\ Сделана проверка перед сохранением модели на значение стоимости ремонта
+
+if self.opening_by_ptk < self.created_at:
+    raise ValidationError("Дата ознакомления не может быть раньше даты создания")
+
+\\ Сделана проверка на дату ознакомления с документом
+
+if self.varranty_working_life < 0:
+    raise ValidationError(f"Значение должно быть положительным")
+\\ Добавлена проверка на положительное значение гарантийного срока службы
+if self.varranty_shelf_life < 0:
+    raise ValidationError(f"Значение должно быть положительным")
+\\ Добавлена проверка на положительное значение гарантийного срока хранения
+if self.resource < 0:
+    raise ValidationError(f"Значение должно быть положительным")
+\\ Добавлена проверка на положительное значение ресура
+if self.life < 0:
+    raise ValidationError(f"Значение должно быть положительным")
+\\ Добавлена проверка на положительное значение срока службы
+
+def create_from_presentation():
+    assert presentation is not None
+
+\\ Предполагается, что создание всегда происходит из модели presentation, поэтому добавлен assert
+
+gamma = float(gamma)
+assert isinstance(gamma, int) and gamma >= 0
+
+\\ Добавлено условие на проверку гамма-значения для расчетов
+
+gamma = delta_t = -1
+
+\\ Присвоено значение для гаммы и дельты после получения квантиля
+
+workbook.close()
+workbook = None
+
+\\ Выставляем None для переенной с xslx файлом после окончания работы с ним
+
+temp_file = request.FILES.get("file", None)
+if temp_file is None:
+    ... some exception logic
+parse_to_contract_info(temp_file)
+temp_file = None
+
+\\ Выдаем загруженному от пользователя файлу None после работы с ним
+
+message(request, log_message)
+log_message = "ERROR MESSAGE"
+
+\\ в контроллере после вызова сообщения для пользователя очищаем переменную лога
+
+have_related_eri = Q(Exists(Eri.objects.filter(reference_id=OuterRef('id'))))
+... много кода
+general_eris = GeneralEri.objects.filter(have_related_eri, cathegory_condition)
+->
+... код
+have_related_eri = Q(Exists(Eri.objects.filter(reference_id=OuterRef('id'))))
+general_eris = GeneralEri.objects.filter(have_related_eri, cathegory_condition)
+
+\\ Перемещена переменная к вызову запроса в ОРМ для наглядного использования
+
+cathegory = request.GET.get("cathegory", None)
+if cathegory is None:
+    ... 404 page return
+if len(cathegory) > 250 or cathegory.isdigit():
+    raise ValidationError("Недопустимое значение для категории")
+\\ Добавлены ограничения на переменную категории
